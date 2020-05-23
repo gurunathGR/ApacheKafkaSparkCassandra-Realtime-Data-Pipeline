@@ -1,6 +1,6 @@
 # KafkaSparkCassandra
 Steps for Execution and Results 
-1. Once we have created a AWS EC2 instance of Ubuntu 18.04 and also created openweather api Key, we can then download and install all the required packages and dependencies.
+1. create a AWS EC2 instance of Ubuntu 18.04 and also created openweather api Key, we can then download and install all the required packages and dependencies.
 2. Open three terminal windows such as EC2-1 (for Kafka), EC2-2 (for Spark) and EC2-3 (for Cassandra). SSH all three windows to connect to our Machine
 Command: ssh -i emr-key-pair.pem ubuntu@ec2-x-xx-xx-xxx.compute-1.amazonaws.com
 3. In your EC2-2 window, move to ~/SERVER/SPARK/spark-2.1.0-bin-hadoop2.7 directory and considering you have KafkaSparkStreaming.py in ~/SERVER/SPARK/ directory, execute the following command to make Spark Streaming Running.
